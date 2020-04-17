@@ -1,5 +1,25 @@
 # Disaster Response Pipeline Project
 
+
+# File Descriptions 
+There are three main foleders:
+# Data 
+disaster_categories.csv: dataset including all the categories
+disaster_messages.csv: dataset including all the messages
+process_data.py: ETL pipeline scripts to read, clean, and save data into a database
+DisasterResponse.db: output of the ETL pipeline, i.e. SQLite database containing messages and categories data
+
+# models 
+train_classifier.py: machine learning pipeline scripts to train and export a classifier
+classifier.pkl: output of the machine learning pipeline, i.e. a trained classifer
+
+# app 
+run.py: Flask file to run the web application
+templates contains html file for the web applicatin
+
+
+
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
